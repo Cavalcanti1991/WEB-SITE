@@ -1,0 +1,24 @@
+<header class="header-type-1">
+    
+    <li>Home</li>
+    
+    <div><button onclick="myFunction(this)" class="dropbtn">Listas</button>
+    <div class="dropdown-content">
+        <li>Usuários</li>
+        <li>Tarefas</li>
+        <li>Atualizações</li>
+    </div>
+    </div>
+    <div><button onclick="myFunction(this)" class="dropbtn">Configuração</button>
+    <div class="dropdown-content">
+        <li>Tema do site</li>
+        <li>Configurações de cargo de discord</li>
+    </div>
+    </div>
+    <div><button onclick="myFunction(this)" class="dropbtn">  <?php echo $_SESSION['USER_NAME']?></button>
+    <div class="dropdown-content">
+        <li>Profile</li>
+        <a href="functions/logout.php">Sair</a>
+    </div>
+    </div>
+</header>

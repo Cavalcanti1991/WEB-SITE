@@ -1,0 +1,31 @@
+@import url(/style/define.css);
+@import url(/style/heros.css);
+@import url(/style/input.css);
+@import url(/style/text.css);
+@import url(/style/headers.css);
+@import url(https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css);
+:root {
+    --body-background: #222;
+    --body-text-color: #fff;
+    --background-color: #333;
+    --primary-color: #008a0b;
+    --primary-color-hover: #0b7401;
+    --primary-text: #fff;
+    --secondary-color: #ddd;
+    --secondary-color-hover: #aaa;
+    --secondary-text: #333333;
+    --header-color: var(--primary-color);
+    --header-text: var(--primary-text);
+    --footer-color: var(--primary-color);
+    --footer-text: var(--primary-text);
+    --danger-color: #a00;
+    --danger-text: #d22;
+    --danger-hover: #d00;
+    --alert-color: #aa0;
+    --alert-text: #dd2;
+    --alert-hover: #dd6;
+    --success-color: #0a0;
+    --success-text: #2d2;
+    --success-hover: #0d0;
+    --black: #000;
+}
